@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bold Home Page - Spectre.css example</title>
+	<meta name="description" content="Bold home page">
+	<meta name="keywords" content="bold home page, spectre.css, easyonme">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+	<!-- Potential updates: Search for cdnjs and code.jqery.com -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.10/spectre.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.10/spectre-exp.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.10/spectre-icons.min.css" />	
+	<style>
+		/* 	Color palette: 
+			Robot: 64F3D5 
+			FF8B0D orangey
+			FF0000 red
+			49E80C green
+			960DFF purple  */
+
+		h1.massive {
+			color: black;
+			font-weight: 900;
+			font-size: 6em;
+			line-height: .8em;
+		}
+		
+		h2 {
+			color: black;
+			font-weight: 500;
+			font-size: 1.5em;
+		}
+		
+		html, body {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+		
+		p,h2,li { font-family: "Roboto Slab", serif; }
+		
+		a.btn.btn-link { 
+			color: #960DFF; 
+		}
+		
+		.massive {
+			color: black;
+			font-weight: 500;
+			font-size: 1.5em;
+		}
+		
+		.big-top-margin {
+			margin-top: 20%;
+		}			
+		
+		.bold-statement { color: #960DFF; }
+		
+		.home-page {
+		}		
+		
+		/* Brand section is larger than other navbar entries.  */
+		.navbar-section a.navbar-brand { 
+			color: #FF8B0D; /* #960DFF */ 
+			font-size: 1.5em;
+			font-weight: 700;
+			text-decoration: underline;
+		}
+		
+		/* Non-brand area of navbar is different size */
+		.navbar-section a.btn.btn-link {
+			color: #960DFF;
+			font-size: 1.25em;
+			font-weight: 700;
+		}
+				
+		.warning { color: red; }
+		
+		@media (max-width: 600px) {
+			.container {
+				background-color: lightgray;
+				display: flex;
+				flex-flow: column;
+				/* 
+				flex-wrap: wrap;
+				*/
+			}
+		}
+				
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+	
+		<!-- HOME PAGE -->
+			<div class="columns">
+				<div class="column col-1">
+				</div><!-- .column .col-1 -->
+				<div class="column col-11">
+				
+				<header class="navbar">
+					<!-- ***********************************					      
+					     IF WINDOW > 600px NAVBAR IS 
+					     HORIZONTAL 				     
+					
+					     hide-sm:
+					     	Display only when 
+					     	window is > 600px wide
+					     ******************************* -->
+					     
+					<!-- ***********************************
+						 navbar-section: 
+							Distributes evenly in container
+					     ******************************* -->
+					<div class="navbar-section hide-sm">	
+						<a href="#" class="navbar-brand">Bold Home Page</a>
+					</div>
+					<div class="navbar-section hide-sm">	
+						<a  href="#" class="btn btn-link">About</a> 
+						<a  href="#" class="btn btn-link">Contact</a> 
+						<a  href="#" class="btn btn-link">FAQ</a> 
+					</div>
+
+					<!-- ***********************************
+					     IF WINDOW <= 600px WIDE GO VERTICAL					     
+					
+					     show-sm:
+					    	Display only when 
+					    	window is <= 600px wide
+					     ******************************* -->
+					<ul class="nav show-sm">
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link selected">Home</a>
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">About</a> 
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">Contact</a> 
+						</li>
+						<li class="menu-item">
+							<a  href="#" class="btn btn-link">FAQ</a> 
+						</li>
+					</ul>
+				</header><!-- .navbar -->
+		
+				</div><!-- .column .col-11 -->
+			</div><!-- .columns -->
+
+			<div class="columns"  >
+				<div class="column col-1">
+				</div><!-- .column col-1 -->  
+				<div class="column col-6">
+					<article>
+						<h1 class="massive big-top-margin">This is a Honkin' Big 
+						<span class="bold-statement">Bold Statement.</span></h1>
+						<header>
+						</header>
+						<section>							
+							<h2>Consider doing something like this for your client.</h2>
+							<p class="massive">Here's what needs to be done.</p>
+							<ul class="massive">
+								<li>Make this responsive.</li>
+								<li>Make bullets hang indent.</li>
+								<li>Possibly restore this text from boldhome1.html.</li>
+							</ul>
+						</section>
+					</article>
+				</div><!-- column col-6 -->
+				<div class="column col-4">
+					<p  class="column col-4 big-top-margin">&nbsp;</p>
+					<img src="bluerobot.svg" alt="Allegedly blue robot graphic">
+					<p  class="massive">We thought of doing this ourselves. 
+					Then we decided to have
+					<span class="warning">our robot do it for us</span>.</p>							
+				</div><!-- .column col-4 -->
+			</div><!-- .columns -->
+
+	</div><!-- .container -->
+		
+</body>
