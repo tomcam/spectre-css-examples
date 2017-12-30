@@ -12,4 +12,4 @@
 
 **bold.html** is a simple, powerful home page for anyone interested in making a statement. [GitHub Source](https://github.com/tomcam/spectre-css-examples/blob/master/bold.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/bold.html)
 
-**update1.htm** would be a good start on the home page for a news site. It's only 60+ lines of HTML, and that includes the text content. [SGitHub ource](https://github.com/tomcam/spectre-css-examples/blob/master/update1.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/update1.html)
+**update1.htm** would be a good start on the home page for a news site. It's only 60+ lines of HTML, and that includes the text content. [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/update1.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/update1.html)
