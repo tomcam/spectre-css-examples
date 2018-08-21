@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+	<!-- Create title for browser tabs & Favorites -->
+	<meta charset="utf-8">
+	<!-- This site is responsive. Use full screen width. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infographic | Spectre.css template</title>
+	<meta name="description" content="3 column infographc template">
+	<meta name="keywords" content="spectre.css, 3 columns, infographic template">	
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Londrina+Outline" rel="stylesheet"> 
+	<style>
+		p { font-family: 'Dosis', sans-serif; font-size: 1.2rem; font-weight: 500; }
+		h1 { font-family: 'Londrina Outline', sans-serif; letter-spacing: .1rem;  }
+		h2 { font-family: 'Dosis', sans-serif; }
+
+		/* Very top of each column is a big Spectre.css icon */
+		.icon-header { font-weight: 500; padding-top: 2rem; }
+
+		/* Reddish background, light text */
+		.panel1 { background-color: #DD4248; color: white; padding-top: 2rem; }
+
+		/* Light greenish background */
+		.panel2 { background-color: #98D5D8;  }
+
+		/* Light bluish background */
+		.panel3 { background-color: #E2F0FC; }
+
+		/* Darkish blue background */
+		.panel4 { background-color: #49519A; color: white; }
+		
+		/* Footer-like bottom panel */
+		.bottom { letter-spacing: .2rem; color: white; background-color: #DD4248; padding-top: 1rem; }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!-- The top "cap" with the h1 in it -->
+		<div class="columns">
+			
+			<!-- hide-lg makes the left column disappear when width is decreased -->
+			<div class="column col-3 hide-lg">
+			</div>
+
+			<div class="column col-6 panel1 text-center">
+				<h1>10 Reasons We All Love That Thing</h1>
+			</div>
+			
+			<div class="column col-3 hide-lg">
+			</div>
+		</div><!-- .columns -->
+
+		<!-- 3 columns under the top cap -->
+		<div class="columns">
+			<div class="column col-3 hide-lg">
+			</div>
+
+			<div class="column col-6">
+				<div class="columns">
+					<div class="column col-4 panel2 text-center">
+						<p class="icon-header text-center"><i class="icon icon-3x icon-people"></i></p>
+						<h2>Experts Say</h2>
+						<p>30% Larger since 2012</p>
+						<p>Looks sleeker</p>
+						<p>Sounds sweeter</p>
+						<p>4 out of 5 dentists recommend our thing</p>
+					</div>
+
+
+					<div class="column col-4 panel3 text-center">
+						<p class="icon-header text-center"><i class="icon icon-3x icon-message"></i></p>
+						<h2>Customers Say</h2>
+						<p>They wouldn't dream of switching</p>
+						<p>46% want their mothers to buy it</p>
+						<p>The other 54% are orphans</p>
+						<p>86% wish they'd bought it earlier</p>
+						<p>Many take it on vacations</p>
+					</div>
+					
+					<div class="column col-4 panel4 text-center">
+						<p class="icon-header text-center"><i class="icon icon-3x icon-emoji"></i></p>
+						<h2>You'll say</h2>
+						<p>"Where was this thing before?"</p>
+						<p>"Anthony Bourdain would have loved it"</p>
+						<p>"If only this were in an infographic somewhere"</p>
+						<p>"I could use some caffeine right now"</p>
+					</div>
+				</div><!-- .columns -->
+			</div><!-- .column .col-12 -->
+
+			<div class="column col-3 hide-lg">
+			</div>
+
+		</div><!-- .columns -->
+
+		<!-- Bottom footer-like "cap" under the 3 columns -->
+		<div class="columns">
+			
+			<div class="column col-3 hide-lg">
+			</div>
+
+			<div class="column col-6 bottom text-center">
+				<p>BROUGHT TO YOU BY <a href="https://spectrebook.com">EXAMPLE.COM</a></p>
+			</div>
+			
+			<div class="column col-3 hide-lg">
+			</div>
+		</div><!-- .columns -->
+	
+	</div><!--  .container -->
+</body>
