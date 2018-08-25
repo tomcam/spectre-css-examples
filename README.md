@@ -6,6 +6,9 @@
 
 **layout1.html** is the skeleton of a standard corporate home page. [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/layout1.html), [preview](http://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/layout1.html)
 
+**gallery-pricing** shows 3 feature comparison boxes.
+[GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/gallery-pricing.html), [preview](http://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/gallery-pricing.html)
+
 **float-left-float-right.html**
 [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/float-left-float-right.html), [preview](http://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/float-left-float-right.html)
 
