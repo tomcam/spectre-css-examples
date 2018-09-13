@@ -16,5 +16,12 @@
 
 **update1.html** would be a good start on the home page for a news site. It's only 60+ lines of HTML, and that includes the text content. [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/update1.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/update1.html)
 
-**slidefu-infographic.html** Breezy, informal infographic template. 
+**slidefu-infographic.html** Breezy, informal infographic template.
 [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/slidefu-infographic.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/slidefu-infographic.html)
+
+#### In Examples Folder
+**signin-01.html** centered signin box with gradient background by default
+[GitHub source](https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-01.html), [Preview](http://htmlpreview.github.io/?https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-01.html)
+
+**signin-02.html** full right column signin box with colored left column by default
+[GitHub source](https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-02.html), [Preview](http://htmlpreview.github.io/?https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-02.html)
