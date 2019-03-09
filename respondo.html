@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cute Home Page - Spectre.css example</title>
+	<meta name="description" content="Bold home page">
+	<meta name="keywords" content="cute home page, spectre.css, easyonme">
+	<!-- Potential updates: Search for cdnjs and code.jqery.com -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.2.10/spectre.min.css" />
+	<style>
+		/* 	Color palette: 
+			Puppy gold: A6682B
+			Puppy off-white DFC3AB
+			Orange complement for puppy color: FF7E00
+			Robot: 64F3D5 
+			FF8B0D orangey
+			FF0000 red
+			49E80C green
+			960DFF purple  */
+
+		h1 {
+			color: white	;
+			font-weight: 700;
+			font-size: 3em;
+			line-height: .9em;
+			margin-top: 2em;
+		}
+		
+		h2 {
+			color: white;
+			font-weight: 500;
+			font-size: 2em;
+		}
+		
+		body {
+			background-color: black;
+		}
+		
+		
+		
+		/* Brand section is larger than other navbar entries.  */
+		.navbar-section a.navbar-brand { 
+			color: #DFC3AB;  /* Puppy off-white */ 
+			font-size: 2em;
+			font-weight: 700;
+		}
+		
+		/* Non-brand area of navbar is different size */
+		.navbar-section a.btn.btn-link {
+			color: #FF7E00;
+			font-size: 1.25em;
+			font-weight: 700;
+		}
+				
+		.warning { color: red; }
+		
+		/* DIAGNOSTICS 
+		body { background-color: BlueViolet; }
+		html { background-color: brown; }
+		.col-1 { background-color: lightgreen; }
+		.col-4 { background-color: darkgreen; }
+		.col-7 { background-color: aquamarine;  }
+		.container { background-color: lightgray;}
+		*/
+						
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+	
+		<!-- HOME PAGE -->
+			<div class="columns">
+				<div class="column hide-sm col-1">
+				</div><!-- .column .col-1 -->
+				<div class="column col-11">
+				
+					<header class="navbar">
+
+						<!-- ***********************************					      
+							 IF WINDOW > 600px NAVBAR IS 
+							 HORIZONTAL 				     
+					
+							 hide-sm:
+								Display only when 
+								window is > 600px wide
+							 ******************************* -->
+						 
+						<!-- ***********************************
+							 navbar-section: 
+								Distributes evenly in container
+							 ******************************* -->
+						<div class="navbar-section hide-sm">	
+							<a href="#" class="navbar-brand">Bold Home Page</a>
+						</div>
+						<div class="navbar-section hide-sm ">	
+							<a  href="#" class="btn btn-link">About</a> 
+							<a  href="#" class="btn btn-link">Contact</a> 
+							<a  href="#" class="btn btn-link">FAQ</a> 
+						</div>
+
+						<!-- ***********************************
+							 IF WINDOW <= 600px WIDE GO VERTICAL					     
+					
+							 show-sm:
+								Display only when 
+								window is <= 600px wide
+							 ******************************* -->
+						<ul class="nav show-sm">
+							<li class="menu-item">
+								<a  href="#" class="btn btn-link selected">Home</a>
+							</li>
+							<li class="menu-item">
+								<a  href="#" class="btn btn-link">About</a> 
+							</li>
+							<li class="menu-item">
+								<a  href="#" class="btn btn-link">Contact</a> 
+							</li>
+							<li class="menu-item">
+								<a  href="#" class="btn btn-link">FAQ</a> 
+							</li>
+						</ul>
+	
+	
+					</header><!-- .navbar -->
+		
+				</div><!-- .column .col-11 -->
+			</div><!-- .columns -->
+			
+			<div class="columns" >
+				<div class="column hide-sm col-1">
+				</div>
+				<div class="column col-4 col-sm-4 float-left"
+					>
+					<h1>Some things just sell themselves.</h1>
+					<h2>The rest can use some help from time to time.</h2>
+				</div> 
+				
+				<div class="column col-7 col-sm-12 float-right" 
+					>
+						<img 
+							src="puppy-on-black-background-close.jpg" 
+							class="img-responsive"
+							alt="Cute puppy">
+				</div><!-- .column col-sm-1 -->  
+			</div><!-- .columns -->
+		
+
+	</div><!-- .container -->
+	
+		
+</body>
