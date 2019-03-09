@@ -9,38 +9,40 @@
 	<!-- Ensure use of most common Unicode characters -->
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-	<!-- Considered an "experimental" feature -->
-	<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css" />
-	<!-- Spectre.css icons are used -->
-	<link rel="stylesheet"href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"> 
-
 	<style>
-		.column li { list-style: none; color: red; margin-top: 0; margin-bottom: 0; }
+		/* Add whitespace to emphasize explanatory text. */
+		.explanation { margin-left: 25%; margin-right: 25%; } 
+
+		/* Dropshadow effect for navbar. */
+		.navshadow { box-shadow: 2px 2px 2px lightgrey; }
 	</style>
 </head>
 <body>
-	<header class="navbar" style="padding: 1rem; box-shadow: 2px 2px 2px lightgrey;">
-		<!-- Logo, here on the left -->
-		<section class="navbar-primary">	
+	<!-- Construct top navbar -->
+	<header class="navbar navshadow" style="padding: 1rem;" >
+		<!-- Logo on the left -->
+		<div class="navbar-primary">	
 			<a href="#" class="navbar-brand"><span class="text-large">YourSite</span></a>
-		</section>
-		<section class="navbar-section">
+		</div>
+		<!-- Supporting links on on the right -->
+		<div class="navbar-section">
 			<a href="#" class="btn btn-link">FAQ</a>
 			<a href="#" class="btn btn-link">Support</a> 
 			<a href="#" class="btn btn-link">About</a> 
 			<a href="#" class="btn btn-success">Sign Up</a>
-		</section>
+		</div>
 	</header>
 
 
 	<div class="container centered">
 		<h1 class="text-center" style="margin-top: 5%;">Pricing</h1>
-		<p class="text-center text-large" style="margin-left: 25%; margin-right: 25%;">It's usually good to offer 3 options for pricing. It's also a good practice to provide
+		<p class="text-center text-large explanation">It's usually good to offer 3 options for pricing. It's also a good practice to provide
 		visual clarification for the best deal.</p>
 		<div class="columns" style="margin-left: 15%; margin-right: 15%;">
 			<div class="column col-4 text-center">
 
-				<div class="card">
+				<!-- mt-2 style pushes down left & right columns --> 
+				<div class="card mt-2">
 					<div class="card-header bg-gray">
 						<div class="card-title">
 							<h2>Starter</h2>			
@@ -59,18 +61,19 @@
 
 			<div class="column col-4 text-center">
 
-				<div class="card">
+				<!-- Without mt-2 style this "pushes up" the center column --> 
+				<div class="card navshadow">
 					<div class="card-header bg-primary">
 						<div class="card-title">
 							<h2>Small Business</h2>			
 						</div><!-- .card-title -->    
 					</div><!--- .card-header -->
 					<div class="card-body">
-						<p class="h3">$99/mo <span class="bg-gray h5">$300/quarter</span></p>				  
+						<p class="h3">$59/mo <span class="bg-gray h5">$300/quarter</span></p>				  
 						<p>Up to 5 accounts</p>				  
 						<p>Up to 2G text storage</p>				  
 						<p>Up to 10G image storage</p>				  
-						<p><span class="text-bold text-large text-success"> BEST DEAL </span></p>				  
+						<p><span class="text-bold text-large text-success"> BEST VALUE </span></p>				  
 						<button class="btn btn-primary">Order</button>
 					</div><!-- .card-body --> 
 				</div><!-- .card -->
@@ -79,14 +82,15 @@
 			
 			<div class="column col-4 text-center">
 
-				<div class="card">
+				<!-- mt-2 style pushes down left & right columns --> 
+				<div class="card mt-2">
 					<div class="card-header bg-gray">
 						<div class="card-title">
 							<h2>Enterprise</h2>			
 						</div><!-- .card-title -->    
 					</div><!--- .card-header -->
 					<div class="card-body">
-						<p class="h3">$59/mo <span class="bg-gray h5">per user</span></p>				  
+						<p class="h3">$199/mo <span class="bg-gray h5">$999/quarter</span></p>				  
 						<p>Unlimited accounts</p>				  
 						<p>Up to 5TB text storage</p>				  
 						<p>Up to 25TB image storage</p>				  
