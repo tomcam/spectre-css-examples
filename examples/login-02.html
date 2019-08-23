@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Login | Spectre CSS Examples</title>
+	<meta name="description" content="Login Example using Spectre CSS">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="../dist/spectre.min.css" />
+</head>
+<body>
+
+	<div class="columns">
+		<div class="column col-6 col-sm-12 bg-secondary">
+			<!-- Put some Lovely Text here OR -->
+			<!-- A nice background image OR perhaps -->
+			<!-- Both text and background image will do -->
+		</div>
+		<div class="column col-6 col-sm-12" style="height: 100vh;">
+			<div style="display: table; width: 100%; height: 100vh;">
+				<div style="display: table-cell; vertical-align: middle;">
+					<div class="card my-2" style="border: none;">
+						<div class="card-header">
+							<h4 class="card-title">Login</h4>
+							<div class="card-subtitle text-gray">Provide Your Username and Password</div>
+						</div>
+						<div class="card-body">
+							<form class="mb-2" method="POST" action="javascript:;">
+								<div class="form-group">
+									<label class="form-label" for="username">Username</label>
+									<input class="form-input" type="text" name="username" id="username" placeholder="Username" required>
+								</div>
+
+								<div class="form-group">
+									<label class="form-label" for="password">Password</label>
+									<input class="form-input" type="password" name="password" id="password" placeholder="Password" required>
+								</div>
+
+								<div class="form-group">
+									<label class="form-checkbox">
+										<input type="checkbox">
+										<i class="form-icon"></i> Remember Me
+									</label>
+								</div>
+
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary">Login</button>
+									<a class="btn btn-link btn-sm" href="javascript:;">
+											Forgot Your Password?
+									</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
