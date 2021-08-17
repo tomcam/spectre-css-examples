@@ -21,7 +21,7 @@
 
 #### In Examples Folder
 **signin-01.html** centered signin box with gradient background by default
-[GitHub source](https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-01.html), [Preview](http://htmlpreview.github.io/?https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-01.html)
+[GitHub source](https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-01.html), [Preview](http://htmlpreview.github.io/?https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-01.html)
 
 **signin-02.html** full right column signin box with colored left column by default
-[GitHub source](https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-02.html), [Preview](http://htmlpreview.github.io/?https://github.com/Teejay1589/spectre-css-examples/blob/master/examples/signin-02.html)
+[GitHub source](https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-02.html), [Preview](http://htmlpreview.github.io/?https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-02.html)
