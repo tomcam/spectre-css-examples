@@ -21,5 +21,12 @@
 **respondo** is a high-end ad style, with bonus puppy.
 [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/respondo.html), [preview](http://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/respondo.html)
 
-**slidefu-infographic.html** Breezy, informal infographic template. 
+**slidefu-infographic.html** Breezy, informal infographic template.
 [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/slidefu-infographic.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/slidefu-infographic.html)
+
+#### In Examples Folder
+**signin-01.html** centered signin box with gradient background by default
+[GitHub source](https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-01.html), [Preview](http://htmlpreview.github.io/?https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-01.html)
+
+**signin-02.html** full right column signin box with colored left column by default
+[GitHub source](https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-02.html), [Preview](http://htmlpreview.github.io/?https://github.com/tunjioye/spectre-css-examples/blob/master/examples/login-02.html)
