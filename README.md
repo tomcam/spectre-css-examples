@@ -11,7 +11,7 @@
 **float-left-float-right.html**
 [GitHub source](https://github.com/tomcam/spectre-css-examples/blob/master/float-left-float-right.html), [preview](http://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/float-left-float-right.html)
 
-**blogdrama.html** is a responsive blog home page with very very low resource usage. [GitHub Source](https://github.com/tomcam/spectre-css-examples/blob/master/blogdrama.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/blogdrama.html)
+**blogdrama.html** is a responsive blog home page with very very low resource usage. [GitHub Source](https://github.com/tomcam/spectre-css-examples/blob/master/blogdrama.html), [Preview](https://htmlpreview.github.io/?https://github.com/tomcam/spectre-css-examples/blob/master/blogdrama.html)
 
 **bold.html** is a simple, powerful home page for anyone interested in making a statement. [GitHub Source](https://github.com/tomcam/spectre-css-examples/blob/master/bold.html), [Preview](https://htmlpreview.github.com/?https://github.com/tomcam/spectre-css-examples/blob/master/bold.html)
 
